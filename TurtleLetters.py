@@ -410,13 +410,50 @@ def turtleLetter(letter,tur):
         tur.right(60)
 	    
     elif letter == "W":
-	    pass
+	tur.right(70)
+        tur.fd(50)
+        tur.right(-140)
+        tur.fd(40)
+        tur.right(70)
+        tur.fd(40)
+        tur.right(-140)
+        tur.fd(40)
+        tur.pu
+        tur.right(50)
+        tur.fd(40)
+        
+        
     elif letter == "X":
-	    pass
+	tur.pd
+        tur.left(45)
+        tur.pu()
+        tur.right(135)
+        tur.fd(40)
+        tur.pd()
+        tur.right(135)
+        tur.fd(65)
+        tur.pu
+        tur.right(50)
+        tur.fd(40)
     elif letter == "Y":
-	    pass
+	tur.pd
+        tur.right(75)
+        tur.fd(45)
+        tur.left(75)
+        tur.fd(45)
+        tur.backward(45)
+        tur.right(60)
+        tur.fd(70)
+        tur.pu
+        tur.right(50)
+        tur.fd(40)
     elif letter == "Z":
-	    pass		
+	tur.pd
+        tur.fd(60)
+        tur.right(65)
+        tur.fd(60)
+        tur.left(65)
+        tur.fd(60)		
 
         
     elif letter == "Ax":
