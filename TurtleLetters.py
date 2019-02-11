@@ -152,6 +152,7 @@ def turtleLetter(letter,tur):
         tur.pu()
         tur.left(30)
         tur.fd(60)
+	tur.pd()
 
     elif letter == "H":
 	    pass
