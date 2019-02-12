@@ -167,13 +167,71 @@ def turtleLetter(letter,tur):
     elif letter == "M":
 	    pass
     elif letter == "N":
-	    pass
+        tur.pu()
+        tur.fd(5)
+        tur.right(90)
+        tur.fd(50)
+        tur.pd()
+        tur.right(180)
+        tur.fd(40)
+        tur.right(90)
+        tur.fd(15)
+        tur.right(90)
+        tur.fd(40)
+        tur.pu()
+        tur.right(180)
+        tur.fd(50)
+        tur.right(90)
     elif letter == "O":
-	    pass
+        tur.pu()
+        tur.fd(5)
+        tur.right(90)
+        tur.fd(10)
+        tur.pd()
+        tur.left(90)
+        tur.fd(40)
+        tur.right(90)
+        tur.fd(40)
+        tur.right(90)
+        tur.fd(40)
+        tur.right(90)
+        tur.fd(40)
+        tur.pu()
+        tur.right(90)
+        tur.fd(50)
+        tur.right(90)
     elif letter == "P":
-	    pass		
+      
+        tur.pd()
+        tur.left(90)
+        tur.fd(40)
+        tur.right(90)
+        tur.fd(40)
+        tur.right(90)
+        tur.fd(40)
+        tur.right(90)
+        tur.fd(40)
+        tur.right(180)
+        tur.fd(80)
+        tur.pu()
+        tur.right(180)
+        tur.fd(80)
+        tur.right(90)
+        tur.fd(50)
     elif letter == "Q":
-	    pass
+       
+        tur.pd()
+        tur.fd(40)
+        tur.right(90)
+        tur.fd(40)
+        tur.right(90)
+        tur.fd(40)
+        tur.right(90)
+        tur.fd(40)
+        tur.right(180)
+        tur.fd(40)
+        tur.left(90)
+        tur.fd(55)
     elif letter == "R":
 	    pass
     elif letter == "S":
